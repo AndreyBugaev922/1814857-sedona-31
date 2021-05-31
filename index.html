@@ -1,108 +1,106 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Седона</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap"
+    />
+    <link href="normalize.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="icon" href="favicon.ico" />
   </head>
-  <body>
 
-    <header>
-      <nav>
-        <ul>
+  <body class="page-body">
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="maim-header-logo">
+          <img
+            src="images/logo.png"
+            width="138"
+            height="70"
+            alt="Логотип проекта Седона"
+          />
+        </a>
+        <ul class="site-navigation">
           <li><a href="blank.html">Информация</a></li>
           <li><a href="blank.html">Фото и видео</a></li>
           <li><a href="blank.html">Карта штата</a></li>
           <li><a href="catalog.html">Гостиницы</a></li>
-         </ul> 
+        </ul>
       </nav>
     </header>
 
-<main>
-  <h1>Седона — небольшой городок в Аризоне,заслуживающий большего!</h1>
+    <main class="container">
+      <h1>Седона — небольшой городок в Аризоне,заслуживающий большего!</h1>
 
-     <h2>Преимущества</h2>
-     <ul>
-       <li>
-         <h3>Настоящий
-          городок</h3>
-         <p>Седона — не аттракцион для туристов, там
-          течёт своя жизнь</p>
-       </li>
-       <li>
-        <h3>Там есть
-          Мост дьявола</h3>
-        <p>Да, по нему можно пройти! Если конечно
-          вы осмелитесь</p>
-      </li> 
-      <li>
-        <h3>Небольшая
-          площадь</h3>
-        <p>все достопримечательности
-          находятся очень близко</p>
-      </li> 
-      <li>
-        <h3>Красивая
-          дорога</h3>
-        <p>Ехать в седону из лас-вегаса совсем
-          не скучно!</p>
-      </li> 
-      <li>
-        <h3>Мало
-          туристов</h3>
-        <p>Большинство едет в гранд каньон
-          и толпится там</p>
-      </li>
-     </ul>
+      <h2>Преимущества</h2>
+      <ul>
+        <li>
+          <h3>Настоящий городок</h3>
+          <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+        </li>
+        <li>
+          <h3>Там есть Мост дьявола</h3>
+          <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+        </li>
+        <li>
+          <h3>Небольшая площадь</h3>
+          <p>все достопримечательности находятся очень близко</p>
+        </li>
+        <li>
+          <h3>Красивая дорога</h3>
+          <p>Ехать в седону из лас-вегаса совсем не скучно!</p>
+        </li>
+        <li>
+          <h3>Мало туристов</h3>
+          <p>Большинство едет в гранд каньон и толпится там</p>
+        </li>
+      </ul>
 
-     <section>
-       <h2>Заинтересовались?</h2>
-        <p>Укажите предполагаемые даты поездки,
-           и мы покажем вам лучшие предложения гостиниц в седоне</p>
-     </section> 
+      <section class="info">
+        <h2>Заинтересовались?</h2>
+        <p>
+          Укажите предполагаемые даты поездки, и мы покажем вам лучшие
+          предложения гостиниц в седоне
+        </p>
+      </section>
 
-     <section>
-       
-        <button type="button">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button> 
-     </section> 
+      <section class="search">
+        <button type="button">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
+      </section>
 
-     <section>
+      <section class="model">
+        <!--Здесь будет карта-->
+      </section>
+    </main>
 
-     <!--Здесь будет карта-->  
-     </section>
+    <footer class="main-footer">
+      <section class="footer-contacts">
+        <a>#VISITSEDONA</a>
+        <a class="contacts-phoone" href="tel:800555-86-28">800 555-86-28</a>
+      </section>
 
-
-       </main>
-
-
-<footer>
-
-
-  <section>
-
-
-    <a>#VISITSEDONA</a>
-   <a href="tel:800555-86-28">800 555-86-28</a> 
-  </section>
-
-  <section>
-
-    <ul>
-      <li>
-        <a href="#">Twitter</a>
-      </li>
-      <li>
-        <a href="#">Facebook</a>
-      </li>
-      <li>
-        <a href="#">Youtube</a>
-      </li>
-    </ul>
-  </section>
-  <p>
-    Website
-    <a href="https://up.htmlacademy.ru/profession/frontender/11/htmlcss">HTML Academy</a>
-  </p>
-</footer>
-
+      <section class="footer-social">
+        <ul>
+          <li>
+            <a href="#">Twitter</a>
+          </li>
+          <li>
+            <a href="#">Facebook</a>
+          </li>
+          <li>
+            <a href="#">Youtube</a>
+          </li>
+        </ul>
+      </section>
+      <p class="footer-copyright">
+        Website
+        <a href="https://up.htmlacademy.ru/profession/frontender/11/htmlcss"
+          >HTML Academy</a
+        >
+      </p>
+    </footer>
   </body>
-  </html>
+</html>
