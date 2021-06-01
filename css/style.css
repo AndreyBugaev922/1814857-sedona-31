@@ -54,6 +54,16 @@ img {
   background-color: #ffffff;
 }
 
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: bold;
+  src: local("PT Sans"), url("/fonts/CrimsonText-Bold.woff2") format("woff2"),
+    url("/fonts/CrimsonText-Bold.woff") format("woff"),
+    url("/fonts/CrimsonText-Bold.ttf") format("ttf"),
+    url("/fonts/CrimsonText-Bold.eot") format("eot");
+}
+
 /* User navigation */
 
 .site-navigation
@@ -79,7 +89,17 @@ img {
 
 .feature-item h1 {
   font-size: 21px;
-  line-height: 42px;
+  line-height: 26px;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: bold;
+  src: local("PT Sans"), url("/fonts/CrimsonText-Bold.woff2") format("woff2"),
+    url("/fonts/CrimsonText-Bold.woff") format("woff"),
+    url("/fonts/CrimsonText-Bold.ttf") format("ttf"),
+    url("/fonts/CrimsonText-Bold.eot") format("eot");
 }
 
 /* Main footer */
@@ -112,4 +132,14 @@ img {
 .footer-copyright .button:hover .footer-copyright .button:focus {
   color: #000000;
   background-color: var(#eeeeee);
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: bold;
+  src: local("PT Sans"), url("/fonts/CrimsonText-Bold.woff2") format("woff2"),
+    url("/fonts/CrimsonText-Bold.woff") format("woff"),
+    url("/fonts/CrimsonText-Bold.ttf") format("ttf"),
+    url("/fonts/CrimsonText-Bold.eot") format("eot");
 }
